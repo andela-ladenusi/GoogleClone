@@ -1,0 +1,188 @@
+/*************************************************************
+
+CSS3 design for GoogleClone 1.0
+Author: Ladi Adenusi
+License: none
+
+**************************************************************/
+
+
+body {
+	margin: 0;
+	color: #000;
+	background-color: #fff;
+	min-width: 60%;
+	width: 100%;
+	font-family: Arial;
+	font-size: .825em;
+}
+
+
+/********************** Top Navigation Styles **************************/
+header {
+	margin: 0 0;
+	padding: 0 20px 0 0;
+	height: 60px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+	margin: 0 8px;
+}
+
+nav {
+	float: right;
+	clear: both;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+
+.box img {
+	position: relative;
+	top: 12px;
+	height: 32px;
+	width: 32px;
+	opacity: 0.6;
+}
+
+.box:hover img {
+	opacity: 1;
+}
+
+.sign-in {
+	background-color: hsl(220, 100%, 65%);
+	color: #fff;
+	padding: 7px 13px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+.sign-in:hover {
+	text-decoration: none;
+}
+
+
+
+/********************* Section Styles *********************/
+
+/** Selectors grouped with common properties/values **/
+section, #logo, #submit {
+	margin: 0 auto;
+}
+
+section {
+	height: 450px;
+	max-width: 50%;
+	margin: 135px auto 0;
+}
+
+section a {
+	text-decoration: none;
+	margin-left: 7px;
+}
+
+section a:hover {
+	text-decoration: underline;
+}
+
+section input[type="text"] {
+	min-width: 360px;
+	width: 500px;
+	height: 24px;
+	padding-left: 8px;
+	font-size: 1.25em;
+}
+
+section input[type="submit"] {
+	width: auto;
+	height: 24px;
+	padding: 5px 10px;
+	color: #333;
+	background-color: #eee;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 0.825em;
+	border: 1px solid #ddd;
+	margin: 15px 5px;
+}
+
+section input[type="submit"]:hover {
+	box-shadow: 0px 1px 1px 0 #ddd;
+}
+
+#logo, #search, #language {
+	text-align: center;
+}
+
+#logo {
+	background: url('../images/logo.png') center center;
+	background-size: 269px 95px;
+	width: 269px;
+	height: 95px;
+}
+
+#logo p {
+	color: #666;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: right;
+	margin: 0 -5px 0 0;
+	padding: 70px 0 0 0;
+}
+
+#search {
+	margin: 20px 0;
+}
+
+#language {
+	clear: both;
+	padding: 10px 0 0 0;
+}
+
+.languages {
+}
+
+
+
+/************ Footer Navigation Styles **************/
+footer {
+	background-color: #eee;
+	border-top: 1px solid #ddd;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+}
+
+footer a, footer a:visited, footer a:active {
+	text-decoration: none;
+	color: #666;
+	margin: 0 5px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+.footer-left, .footer-right {
+	margin-top: 10px;
+}
+
+.footer-left {
+	margin-left: 15px;
+	float: left;
+}
+.footer-right {
+	margin-right: 15px; 
+	float: right;
+}
